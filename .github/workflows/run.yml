@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   schedule:
-    - cron: 35 3 * * *
+    - cron: '7 10 * * *'
   workflow_dispatch:
 jobs:
   build-and-deploy:
